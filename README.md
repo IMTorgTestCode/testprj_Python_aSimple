@@ -2,6 +2,21 @@
 Simple test project written in Python
 
 
+# Install Package
+
+```
+pip install https://github.com/<myuser>/<mypackage>/archive/master.tar.gz
+```
+
+
+# Run Package
+
+```
+#From within the testprj_Python_aSimple directory
+
+$ python aSimple <Your Name>
+```
+
 
 
 ***
