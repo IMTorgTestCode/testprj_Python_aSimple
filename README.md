@@ -13,10 +13,17 @@ pip install https://github.com/<myuser>/<mypackage>/archive/master.tar.gz
 
 ```
 #From within the testprj_Python_aSimple directory
-
 $ python aSimple <Your Name>
 ```
 
+
+# Test Package
+
+```
+#From within the testprj_Python_aSimple directory
+$ python -m pytest tests
+
+```
 
 
 ***
