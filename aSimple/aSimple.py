@@ -1,8 +1,3 @@
-
-
-
-
-
 class Animal:
 	
 	MaxAnimals = 5
@@ -16,7 +11,7 @@ class Animal:
 			
 	def __init__(self, name):
 		self.name = name
-		Animal.NumOfAnimals += 1	# @userstory1
+		Animal.NumOfAnimals += 1		# @userstory1
 	
 	def getName(self):
 		print self.name
@@ -42,23 +37,6 @@ class Cat(Animal):
 		self.setSound("meeow")
 
 
-
-
-
-
-
-
-if __name__ == '__main__':
-	print "Hello World!" 
-	dogName = raw_input("\nWhat is your dog's name?" ) 
-	
-
-	if dogName:
-		Fido = Dog(dogName)
-		Fido.getSound()
-	
-	Fluffy = Cat("Fluffy")
-	Fluffy.getSound()
 
 
 
